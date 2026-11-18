@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(config\.php|config\.example\.php|README-SETUP\.txt|API-INTEGRATION-EXAMPLE\.js\.txt)$">
+  Require all denied
+</FilesMatch>
